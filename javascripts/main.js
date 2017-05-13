@@ -6,7 +6,7 @@ app.controller("ImageCtrl", ($scope) => {
 	$scope.button = () => {
 		$scope.showButtonView = false;
 	};
-	$scope.image = () => {
-		$scope.showButtonView = true;
-	};
+	// $scope.image = () => {
+	// 	$scope.showButtonView = true;
+	// };
 });
