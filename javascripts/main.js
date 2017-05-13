@@ -1,4 +1,4 @@
-var app = angular.module("Zoe-favorite-food");
+var app = angular.module("Zoe-favorite-food", []);
 
 app.controller("ImageCtrl", ($scope) => {
 	$scope.showButtonView = true;
@@ -6,7 +6,8 @@ app.controller("ImageCtrl", ($scope) => {
 	$scope.button = () => {
 		$scope.showButtonView = false;
 	};
-	// $scope.image = () => {
-	// 	$scope.showButtonView = true;
-	// };
+	
+	$scope.image = () => {
+		$scope.showButtonView = true;
+	};
 });
